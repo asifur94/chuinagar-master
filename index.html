@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuinagar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="tailwind.css" />
+</head>
+
+<body>
+    <div>
+
+        <!-- !NAV STARTS HERE -->
+
+        <nav class="bg-red w-full max-h-[123px]">
+            <div class="flex justify-between items-center mx-[70px]  lg:mx-[100px] 2xl:mx-auto max-w-[1560px]">
+                <img class="w-[83px] my-5 h-[83px]" src="./img/logo.png" alt="" srcset="">
+                <ul class="lg:flex text-white gap-[67px] hidden  mt-3 text-sm ">
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[55px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Home</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[51px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Menu</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[66px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Service</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[45px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Food</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[63px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Sign In</a> </li>
+                    <li>
+                        <div class="relative">
+                            <i class="text-white fa-solid fa-store"></i>
+                            <div
+                                class="w-[15px] text-black text-[13px] flex justify-center items-center bg-white rounded-full h-[15px] absolute -top-[6px] left-[7px]">
+                                2
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+
+                <div class="lg:hidden flex gap-4 items-center mt-3">
+                    <i id="menu" class="text-white text-sm fa-sharp fa-solid fa-bars"></i>
+                    <i id="cross" class="hidden text-white text-base fa-solid fa-xmark"></i>
+                    <div class="relative">
+                        <i class="text-white fa-solid fa-store"></i>
+                        <div
+                            class="w-[15px] text-black text-[13px] flex justify-center items-center bg-white rounded-full h-[15px] absolute -top-[6px] left-[7px]">
+                            2
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+
+
+        <!-- !NAV ENDS HERE -->
+
+
+        <!-- !MAIN STARTS HERE -->
+
+
+        <main class="relative">
+            <div id="respNev" class="bg-red invisible w-full py-4 -mt-1 absolute z-10">
+                <ul class="flex flex-col justify-center items-center text-white gap-5 lg:hidden  mt-3 text-sm ">
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[55px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Home</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[51px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Menu</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[66px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Service</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[45px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Food</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[63px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Sign In</a> </li>
+                </ul>
+            </div>
+            <div
+                class="2xl:mx-auto mx-[100px] flex flex-col justify-center items-center max-w-full 2xl:max-w-[1560px] h-full relative">
+
+
+                <!-- !SECTION 1 STARTS -->
+                <div class="w-full ml-4 flex flex-col lg:flex-row justify-between items-center mt-[77px]">
+                    <div>
+                        <div
+                            class="flex justify-between items-center bg-secondaryRed text-red h-[63px] w-[270px] rounded-[31.5px] mb-[40px] mxl:mb-[73px]">
+                            <p class="font-[600] text-sm ml-[25px]">Bike Delivery</p>
+                            <img class="w-[54px] h-[54px] rounded-full mr-1" src="./img/delivery.png" alt="" srcset="">
+
+                        </div>
+                        <div
+                            class="font-bold text-[50px] mxl:text-[95px] mxl:leading-[115.81px] leading-[70px] mb-[20px] mxl:mb-12">
+                            <h1>The Fastest</h1>
+                            <h1>Delivery</h1>
+                            <h1>In <span class="text-red">Your City</span></h1>
+                        </div>
+                        <div class="font-[500] max-w-[440px] mxl:w-full text-sm mb-[20px] mxl:mb-[92px]">
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo,<br /> sed proin amet a
+                                vestibulum
+                                enim
+                                volutpat lacus. Volutpat arcu sit <br /> sed tortor etiam volutpat ipsum.
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-[15px] md:gap-[55px] ">
+                            <button
+                                class="mxl:text-base text-sm h-[40px] rounded-[15px] text-white bg-gradient-to-b from-[#D56779] to-[#C31F3A] bg-red w-[148px] mxl:w-[248px] mxl:h-[86px]">Order
+                                Now</button>
+                            <div class="flex items-center gap-[10px] md:gap-[25px]">
+                                <div
+                                    class="flex justify-center items-center lg:w-[66px] lg:h-[66px] w-[44px] h-[44px] mxl:w-[88px] mxl:h-[88px] rounded-full shadow shadow-[0px 0px 25px rgba(131, 165, 255, 0.25)] bg-white">
+                                    <img class="ml-3 w-[20px] h-[20px] lg:w-[49px] lg:h-[49px] " src="./img/poly.png">
+                                </div>
+                                <h2 class="mxl:text-base text-sm font-bold">Order Process</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 max-w-[381.73px] h-[236.82px]">
+                        <img class="hidden 2xl:block -ml-16" src="./img/arrow.png" />
+                    </div>
+                    <div class="mxl:w-[445px] ml-9 xm:ml-20 sm:ml-16 lg:ml-0 mxl:h-[837px]">
+                        <div
+                            class="relative bg-gradient-to-b from-[#D9D9D9] to-[rgba(217, 217, 217, 0)] w-[300px] h-[600px]  mxl:w-[445px] mxl:h-[837px] -mt-[17px] -mr-1 rounded-[30px]">
+
+                            <!-- !first card -->
+                            <div
+                                class="card absolute mxl:top-[135px] top-[125px] -left-[30px] xm:-left-[75px] mxl:-left-[135px] gap-[14px] shadow-md shadow-[0px 0px 31px rgba(0, 0, 0, 0.15)] ">
+
+                                <div class="ml-10 flex flex-col mxl:gap-8 xm:gap-5 gap-1 xm:mt-[26px] mxl:mt-[56px]">
+                                    <h2 class="mxl:text-base text-sm font-bold">Shop <br />grocery item</h2>
+                                    <p class="mxl:text-sm text-xs font-[500]">Lorem ipsum dolor
+                                        <br /> sit amet, consectetu
+                                        adipiscing elit, sed
+                                    </p>
+                                </div>
+
+                                <img class=" mxl:w-[270px] mxl:h-[340px] w-[170px] h-[240px] mxl:-mt-[65px] -mt-[40px]  "
+                                    src="./img/card1.png" />
+
+                                <div
+                                    class="mxl:w-[100px] w-[70px] mxl:top-[90px] mxl:left-[490px] top-[60px] left-[265px] xm:left-[315px] absolute">
+                                    <img src="./img/arrowIcon.png">
+                                </div>
+                            </div>
+
+                            <!-- !second card -->
+                            <div
+                                class="card items-center gap-[44px] absolute mxl:top-[509px] top-[379px] -left-[30px] xm:-left-[75px] mxl:-left-[135px] shadow-md shadow-[0px 0px 31px rgba(0, 0, 0, 0.15)]">
+
+                                <div class="ml-10 flex flex-col mxl:gap-8 xm:gap-5 gap-1 xm:mt-[26px] mxl:mt-[56px]">
+                                    <h2 class="mxl:text-base text-sm font-bold">Order <br />your food </h2>
+                                    <p class="mxl:text-sm text-xs font-[500]">Lorem ipsum dolor <br />
+                                        sit amet, consectetu
+                                        adipiscing elit, sed</p>
+                                </div>
+
+                                <img class="mxl:w-[300px] mxl:h-[220px] w-[140px] h-[120px] mxl:mt-8 mt-5"
+                                    src="./img/card2.png" />
+                                <div
+                                    class="mxl:w-[100px] mxl:top-[100px]  w-[70px]  top-[65px] left-[265px] xm:left-[315px] mxl:left-[490px] absolute">
+                                    <img src="./img/arrowIcon.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- !SECTION 1 ENDS -->
+
+
+                <!-- !SECTION 2 STARTS -->
+                <div class="flex flex-col mt-[159px] gap-8 mb-[82px] items-center">
+                    <h2 class="font-[600] text-base text-center">1/12 M.A. Rahim Road, Kushtia</h2>
+                    <div
+                        class="relative lg:w-[770px] w-375px sm:w-670px h-[65px] rounded-[10px] shadow-lg shadow-[0px 0px 17px rgba(0, 0, 0, 0.45)]">
+                        <input class="ml-[26px] lg:w-[649px] w-254px sm:w-649px h-[65px] outline-none" type="text"
+                            name="" id="">
+                        <div class="absolute top-[19px] flex items-center  left-[26px] gap-[20px]">
+                            <img class="w-[25px] h-[26px] " src="./img/searchIcon.png">
+                            <h2 class="text-sm font-[600]">Search</h2>
+                        </div>
+                        <img class="absolute top-[14px] right-[22px] w-[50px] h-[37px]" src="./img/trigarIcon.png">
+                    </div>
+                </div>
+                <!-- !SECTION 2 ENDS -->
+
+
+                <!-- !SECTION 3 STARTS -->
+                <div class="flex flex-col items-center text-center mb-[100px]">
+                    <p class="text-sm font-[500] text-red mb-[3px]">Product</p>
+                    <h3 class="text-base font-bold mb-12">Most Popular Food Items</h3>
+
+                    <!-- !Card SECTION 1 STARTS-->
+                    <div class="grid lg:grid-cols-2 2xl:grid-cols-3 gap-11 mb-[58px] ml-6 xs:ml-0">
+
+                        <!-- !cards -->
+                        <div
+                            class="w-[300px] xs:w-full xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection1Img/1.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection1Img/2.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection1Img/3.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection1Img/4.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection1Img/5.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection1Img/6.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- !Card SECTION 1 STARTS-->
+
+                    <button
+                        class="ml-6 md:ml-0 bg-red flex gap-6 items-center w-[200px] h-[50px] md:w-[278px] md:h-[74px] rounded-[37px]">
+                        <p class="ml-6 md:text-sm text-xs font-[500] text-white ">See More Product</p>
+                        <img class="md:w-[58px] md:h-[58px] w-[28px] h-[28px]" src="./img/roundedArrow.png">
+                    </button>
+                </div>
+                <!-- !SECTION 3 ENDS -->
+
+
+
+                <!-- !SECTION 4 STARTS -->
+                <div class="flex flex-col items-center mb-[100px]">
+                    <h3 class="text-base text-center font-bold mb-12">Most Popular Food Items</h3>
+
+                    <!-- !cards -->
+                    <div class="grid lg:grid-cols-2 2xl:grid-cols-3 gap-11 mb-[58px] ml-6 xs:ml-0">
+
+                        <!-- !cards -->
+                        <div
+                            class="w-[300px] xs:w-full  xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection2Img/1.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection2Img/2.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection2Img/3.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection2Img/4.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection2Img/5.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection2Img/6.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="ml-6 md:ml-0 bg-red flex gap-6 items-center w-[200px] h-[50px] md:w-[278px] md:h-[74px] rounded-[37px]">
+                        <p class="ml-6 md:text-sm text-xs font-[500] text-white ">See More Product</p>
+                        <img class="md:w-[58px] md:h-[58px] w-[28px] h-[28px]" src="./img/roundedArrow.png">
+                    </button>
+
+                </div>
+                <!-- !SECTION 4 ENDS -->
+
+
+
+                <!-- !SECTION 5 STARTS -->
+                <div class=" md:mb-[250px]">
+                    <!-- !1 -->
+                    <div class="text-center mb-32 xm:mb-0">
+                        <p class="text-sm font-[500] mb-[3px] text-red">Testimonials</p>
+                        <h1 class="text-base font-bold mb-[57px]">Our Happy Client Says</h1>
+                    </div>
+
+                    <div class="w-[300px] sm:w-full flex flex-col 2xl:flex-row gap-12 items-center justify-between">
+                        <div
+                            class="relative max-w-[723px] h-[700px] xs:h-[600px] sm:h-[445px] rounded-[35px] shadow-md shadow-[0px 0px 50px rgba(0, 0, 0, 0.1)] flex flex-col justify-center gap-[35px] items-center">
+                            <div class="flex flex-col sm:flex-row items-center gap-2">
+                                <img class="rounded-full" src="./img/CardSection3Img/manPic.png">
+                                <div>
+                                    <h1 class="text-sm font-[600]">Willians Jhone</h1>
+                                    <p class="text-xm font-[400]">CEO & Co-Founder</p>
+                                </div>
+                            </div>
+                            <p class="text-sm mb-8 sm:mb-0 mx-[40px] sm:mx-[51px] font-[500px] text-center">“Lorem ipsum
+                                dolor sit amet, consectetur
+                                adipiscing elit. Amet nisl <br /> tincidunt adipiscing
+                                dictumst blandit hac. Lectus cras velit sed <br /> dignissim ac, aliquet. Metus egestas
+                                habitant
+                                feugiat neque ultrices <br /> nunc, dolor egestas mus.”</p>
+                            <img class="absolute top-[170px] max-w-[90px] h-[90px] -right-[50px]"
+                                src="./img/redArrowRight.png" alt="" srcset="">
+                            <img class="absolute top-[170px] max-w-[90px] h-[90px] -left-[50px]"
+                                src="./img/redArrowLeft.png" alt="" srcset="">
+                        </div>
+
+                        <!-- !2 -->
+                        <div class="max-width-[750px] h-[445px]">
+                            <img src="./img/CardSection3Img/foodCard.png">
+                        </div>
+                    </div>
+                </div>
+                <!-- !SECTION 5 ENDS -->
+
+
+                <div
+                    class="w-[300px] sm:w-full -mt-32 mb-[207px] xs:-mt-10 bg-black text-white flex mxl:flex-row flex-col  items-center rounded-[50px] max-w-[1560px] max-h-[769px] xs:max-h-[569px] mxl:max-h-[369px]">
+                    <img class="mxl:max-w-[800px] mxl:max-h-[411px] h-[150px] xm:h-[200px] xs:h-[250px]"
+                        src="./img/CardSection3Img/curry.png" alt="" srcset="">
+                    <div class="m-6 flex flex-col gap-[15px] text-center mxl:text-start">
+                        <h1 class="text-base font-[500]">Subcribe To Our Newsletter</h1>
+                        <p class="lg:text-sm">
+                            Lorem ipsum dolor sit amet, consectetur adipidrscing elit. Purus mauris sem sed urna
+                            venenatis
+                            vivamus. Egestas in velit nulla viverra turpis id ac. Amet faucibus tempus.
+                        </p>
+                        <div class="relative">
+                            <input placeholder="Email..." class="pl-2 w-[90%] text-black rounded-[15px] h-[72px]"
+                                type="text">
+                            <button class="subscribe">SUBCRIBE</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer
+            class="px-[80px] xs:px-[180px] bg-red text-white grid sm:grid-cols-2 xl:grid-cols-4 items-center gap-[40px] xl:gap-[162px]">
+            <div class=" flex flex-col -mt-4 ml-0">
+                <img class=" w-[83px] my-5 h-[83px]" src="./img/logo.png">
+                <p class="text-xs">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo libero viverra dapibus odio sit
+                    malesuada in quis. Arcu tristique elementum viverra integer id.
+                </p>
+                <div class="flex gap-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="mt-0 mb-0">
+                <h1 class="footerHeading">Opening Restaurant</h1>
+                <p class="mt-8 text-xs">Sat-Wet: 09:00am-10:00PM
+                    Thursdayt: 09:00am-11:00PM
+                    Friday: 09:00am-8:00PM
+                </p>
+            </div>
+            <div class="mt-10 flex flex-col gap-3">
+                <h1 class="footerHeading -mt-3">User Link</h1>
+                <p class="mt-2 text-xs">
+                    About Us <br />
+                    Contact Us <br />
+                    Order Delivery <br />
+                    Payment & Tex <br />
+                    Terms of Services
+                </p>
+            </div>
+            <div class="flex flex-col gap-2">
+                <h1 class="footerHeading">Contact Us</h1>
+                <p class="text-xs">
+                    1234 Country Club Ave
+                    NC 123456, London, UK
+                    +0123 456 7891
+                </p>
+                <div>
+                    <input class="pl-2 outline-none rounded-[32.5px] text-black" type="email" placeholder="  Email">
+                    <button
+                        class="bg-red rounded-full shadow-lg shadow-[0px 0px 170px rgba(0, 0, 0, 0.45)]">submit</button>
+                </div>
+
+            </div>
+        </footer>
+        <!-- !MAIN ENDS HERE -->
+    </div>
+
+
+    <script>
+        const menu = document.querySelector('#menu');
+        const cross = document.querySelector('#cross');
+        const respNev = document.querySelector('#respNev');
+
+
+        menu.addEventListener('click', function () {
+            menu.classList.toggle('hidden');
+            cross.classList.toggle('hidden');
+            respNev.classList.toggle('invisible');
+        })
+
+        cross.addEventListener('click', function () {
+            menu.classList.toggle('hidden');
+            cross.classList.toggle('hidden');
+            respNev.classList.toggle('invisible');
+        })
+    </script>
+</body>
+
+</html>

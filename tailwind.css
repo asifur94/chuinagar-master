@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html{
+        font-family:'Montserrat', sans-serif;
+    }
+}
+
+.card{
+   @apply mxl:max-w-[536px] max-w-[300px] xm:max-w-[350px] h-[185px] mxl:h-[275px]  rounded-[30px] bg-white flex 
+}
+.subscribe{
+    @apply absolute flex items-center justify-center lowercase sm:uppercase right-[10px] xs:right-[20px] sm:right-[50px] md:right-[80px] lg:right-[100px] xl:right-[130px] bg-red  mxl:right-[140px] 2xl:right-[120px]  mxl:h-[50px] text-xs sm:text-[15px] w-[55px] sm:w-[95px] mxl:w-[149px] h-[40px] rounded-[15px] bottom-[15px]  mxl:bottom-[10px]
+}
+.footerHeading {
+    @apply text-sm font-bold
+}
